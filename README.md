@@ -1,3 +1,40 @@
+
+## Princípio Fundamental
+
+O SP01-BASE segue a separação permanente de responsabilidades:
+
+* Core 0: Serviços do sistema
+* Core 1: Aplicação do usuário
+
+A aplicação nunca deverá interferir diretamente nos serviços críticos do sistema.
+
+Esta arquitetura visa garantir estabilidade, manutenção simplificada e reutilização em projetos futuros.
+
+## Arquitetura
+
+### Core 0
+
+Responsável pelos serviços do sistema:
+
+* Wi-Fi
+* OTA
+* NTP
+* Atualização via GitHub
+* Reconexão automática
+* Watchdog
+* Logs do sistema
+
+### Core 1
+
+Responsável pela aplicação do usuário:
+
+* Interface gráfica
+* Menus
+* Sensores
+* Automação
+* Projetos específicos
+
+
 # SP01-BASE
 
 Base oficial Frederico Labs para ESP32-WROOM-32.
