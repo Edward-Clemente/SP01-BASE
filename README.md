@@ -8,19 +8,19 @@ Criar uma plataforma única para todos os projetos futuros baseados no SP-01.
 
 ## Arquitetura
 
-### Core 0
+### Núcleo 0
 
 Responsável pelos serviços do sistema:
 
-* WiFi
+* Wi-Fi
 * OTA
 * NTP
-* GitHub Update
+* Atualização via GitHub
 * Reconexão automática
 * Watchdog
-* Logs
+* Logs do sistema
 
-### Core 1
+### Núcleo 1
 
 Responsável pela aplicação do usuário:
 
@@ -39,12 +39,40 @@ Responsável pela aplicação do usuário:
 
 ## Status Atual
 
-v0.1 (Validado)
+### v0.1 (Validado)
 
-✅ Dual Core
-✅ Core 0 dedicado aos serviços do sistema
-✅ Core 1 dedicado à aplicação
-✅ WiFi funcional
-✅ OTA funcional
-✅ Estrutura inicial aprovada
+* ✅ Dual Core
+* ✅ Core 0 dedicado aos serviços do sistema
+* ✅ Core 1 dedicado à aplicação
+* ✅ Wi-Fi funcional
+* ✅ OTA funcional
+* ✅ Estrutura inicial aprovada
+
+## Roadmap
+
+### v0.2
+
+* TFT ILI9341
+* Diagnóstico de rede
+* Exibição de IP
+* Status OTA
+
+### v0.3
+
+* SD Card
+
+### v0.4
+
+* Checkpoint
+
+### v0.5
+
+* Atualização via GitHub
+
+### v1.0
+
+* Primeira versão estável do SP01-BASE
+
+---
+
 Projeto desenvolvido por Frederico Labs.
