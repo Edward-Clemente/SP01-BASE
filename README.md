@@ -39,11 +39,12 @@ Responsável pela aplicação do usuário:
 
 ## Status Atual
 
-### v0.1
+v0.1 (Validado)
 
-* Dual Core
-* WiFi
-* OTA
-* Estrutura inicial
-
+✅ Dual Core
+✅ Core 0 dedicado aos serviços do sistema
+✅ Core 1 dedicado à aplicação
+✅ WiFi funcional
+✅ OTA funcional
+✅ Estrutura inicial aprovada
 Projeto desenvolvido por Frederico Labs.
